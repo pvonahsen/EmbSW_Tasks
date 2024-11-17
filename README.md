@@ -1,8 +1,11 @@
 # EmbSW_Tasks
 
+
 In this repository the mandatory tasks included in the course EmbeddedSoftware are included. 
 
-Task 1: 
+# Task 1: Pascals triangle
+
+
 Pascal's triangle is an arithmetic and geometric figure where each line resembles the sum of the coefficients of the upper line. The first few lines look like this:   
 
          1
@@ -23,8 +26,8 @@ Think about your functional design and make sure all functions are covered by un
 Please use the Github Assignment link (https://classroom.github.com/a/vnbFj_aD) to create a repository.
 Compile and functionality will be verified based on that submission.
 
-Task 2:  
-# Seat Assignment Problem
+ 
+# Task 2: Seat Assignment Problem
 
 You write a short program which reads a csv file containing students, and you produce a seating list for an exam seating in a room which has a defined number of seats in predefines positions (given as rows and columns). Your program makes sure the students are evenly distributed, and the result of your program is a csv file which contains the students plus the assigned seats (row, column).
 
@@ -52,7 +55,8 @@ This sample is small by intent to show the principle. For testing purposes, plea
 Think about your functional design and make sure all functions are covered by unit tests. This will be checked as well. Think about applying the object oriented principles you learned.
 
 
-Task 3: 
+# Task 3: Restaurant visitor contact tracing 
+
 Your friend owns a restaurant. He asks you to provide a program which allows to track the name of people sitting at the tables. The tables have fixed locations and distances, which are known by the program. Find a proper data representation for that information. The table locations and distances are read from a csv file; please define a proper format.
 
 The visitors must be registered when they sit down, and the time of leaving must be registered as well. It must be possible to find guests who were at or near a table (the distance is given in the request) at a specific time interval. The data must be available for at least 14 days.
